@@ -1,0 +1,205 @@
+*{
+    margin: 0;padding: 0;
+}
+.Maincontener{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    height: 100vh;
+   
+}
+.footer{
+    background-color: rgb(224, 171, 171);
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    bottom: -20vh;
+    display: flex;
+}
+.firsthalf{
+    width: 60%;
+    background-color: #edf8f6;
+    height: 30;
+}
+.main{
+    background-color: rgba(253, 252, 251, 0.973);
+    width: 85vw;
+}
+.slidbar{
+    background-color: rgb(166, 173, 171);
+    width: 15vw;
+}
+.slidbar nav{
+    margin: 15px;
+    padding: 5px;
+}
+.slidbar nav li {
+list-style: none;
+font-size: 20px;
+padding: 16px 0;
+padding-left: 0px;
+}
+
+.slidbar li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.infocontainer{
+  margin: 60px;
+    /* background-color: blue; */
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+.pic img{
+    padding: 8vh;
+    height: 36vh;
+    width: 38vh;
+    border-radius: 161px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+  font-size: 50PX;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+.name{
+    font-size: 36PX;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+.about{
+    font-size: 30PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.btn {
+padding: 30px;
+
+}
+.btn button{
+    font-size: 20px;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    margin: 0 6px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px 0 rgba(28,0,181,0.3);
+}
+.btn button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.moreabout{
+    font-size: 23px;
+}
+.main{
+    background-color: #55ffe5;
+    font-size: 14px;
+}
+.contenform{
+    width: 80%;
+    margin: 30px auto;
+}
+.contact-box{
+    background-color: aliceblue;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 20px 30px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 20px 30px;
+    background-color: rgb(79, 132, 248);
+    color: white;
+}
+h1{
+    margin-bottom: 6px;
+}
+.main p{
+    margin-bottom: 20px;
+}
+.input-row{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+.contact-left textarea{
+    width: 100%;
+    border: 1px solid#ccc;
+    outline: none;
+    padding: 10px;
+box-sizing: border-box;
+}
+.contact-left label{
+    margin-bottom: 4px;
+    display: block;
+    color: #1c00b5;
+}
+.contact-left button{
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 6px 16px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    margin: 16px 40%;
+    font-weight: bold;
+    border: 1.6px solid black;
+    box-shadow: 0 5px 15px 0 rgba(21, 10, 180, 0.6);
+}
+.contact-left button:hover{
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 6px 16px;
+    background-color: white;
+    color:dodgerblue ;
+    cursor: pointer;
+    margin: 16px 40%;
+    font-weight: bold;
+    border: 1.6px solid #ccc;
+    box-shadow: 0 5px 15px 0 rgba(26, 21, 56, 0.8);
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact-right h3{
+   
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+
